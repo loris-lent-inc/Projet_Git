@@ -2,41 +2,6 @@
 
 # Easter GIT
 
-# Objectifs de l'examen
-
-Les objectifs de cet atelier sont de manipuler Git sur un projet "fake" afin de mieux le comprendre.
-
-La partie développement du projet sera délibérément triviale.
-
-L'important est de se concentrer sur ses actions Git, sa méthodologie et ses décisions.
-
-# Description du projet
-
-Le projet est un site web basique, avec plusieurs pages.
-
-Pas besoin de faire du CSS, mais si vous voulez vous pouvez, y compris utiliser une librairie type Bootstrap.
-
-Le projet aura une landing page (index.html), avec des liens vers d'autres pages.
-
-# Modalities
-
-Le projet sera fait par équipe de 2 développeurs (1 équipe de 3).
-
-Chaque équipe aura 1 repo sur Github, appartenant à l'un des développeurs de l'équipe.
-
-Les autres développeurs devront être invités sur le projet.
-
-# Livrables
-
-Les livrables devront être déposés au plus tard le 10 avril à 23h59 sur Mootse.
-
-Les livrables seront constitués :
-
-- d'un repo Git
-- d'un document expliquant les choix faits par l'équipe pour chaque step
-
-# Steps
-
 ## Step 1
 
 Initialiser le projet git, inviter le / les coéquipiers.
