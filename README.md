@@ -31,11 +31,9 @@ Pour les features suivantes, on vous demande de :
 
 Une release avec ces features est mise en production.
 
-Prenez les bonnes décisions :
-- créer des branches pour ces features ou pas ?
-- si oui, où créer ces branches ?
-- si oui, où merger ces branches ?
-- comment matérialiser le fait qu'une release avec ces features est partie en production ?
+=> On créé des branches pour les versions de chaque langues, puis une fois chaque langue développée, on merge la branche associée dans la branchede developpement
+=> On crée égalementun branche où on modifie la landing page pour ajouter les liens vers les nouvelles pages, puis on la merge dans la branche de developpement
+=> Enfin on merge la branche de developpement dans la branche master et on ajoute le tag avec le numéro de version (v1.0). 
 
 ## Step 4
 
@@ -53,10 +51,7 @@ Une correction urgente doit être faite sur la production ! (release faite au st
 
 Remplacer la page Italienne par une page Russe, et remplacer le lien sur la landing page.
 
-Prenez les bonnes décisions :
-- comment créer un hotfix (d'où tirer la branche) ?
-- où la merger ?
-- comment matérialiser le fait qu'une release avec cette correction est mise en production ?
+=> Pour faire cette correction, on créé une branche Fix depuis la master, que l'on merge dans la master avec le tag de la nouvelle version (1.1)
 
 ## Step 6
 
@@ -73,6 +68,9 @@ Une amélioration indispensable sur la release preparée au step 4 doit être fa
 - ajouter un lien vers cette page sur votre landing page
 
 Une release avec ces features est mise en production (mais sans la page en Hollandais donc).
+
+=> On créé une branche depuis la branche de développement dans laquelle on fait créé la page, puis on ajout le lien sur la landing page
+=> On merge cette branche dans la branche de developpement, puis la branche de developpement dans la master, et on créé une release.
 
 ## Step 8
 
